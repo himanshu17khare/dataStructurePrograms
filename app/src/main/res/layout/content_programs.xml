@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgramsActivity"
+    tools:showIn="@layout/app_bar_programs">
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<pl.droidsonroids.gif.GifImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/imageedit"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/textmid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++ Programs of DS Practical"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/imageView"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+</RelativeLayout>
